@@ -8,8 +8,6 @@ public class Libro
     private int anio;
     private boolean disponible;
 
-    public Libro() {}
-
     public Libro(String titulo, String autor, int anio, boolean disponible) {
         this.titulo = titulo;
         this.autor = autor;
